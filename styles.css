@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    width: auto;
+    background-color: rgb(194, 230, 240);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid slategrey;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+}
+
+.menu-item {
+    color: rgb(65, 70, 75);
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid rgb(65, 70, 75);
+    border-radius: 5px;
+}
+
+.search {
+    color: rgb(65, 70, 75);
+    padding: 10px;
+    width: 400px;
+    border: 1px solid rgb(65, 70, 75);
+    border-radius: 5px;
+}
+
+.content-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    border: black;
+}
+
+.sidebar {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.sidebar-item {
+    width:250px;
+    padding: 20px 0px 20px 30px;
+    border-radius: 10px;
+    background-color: rgb(190, 248, 207);
+    margin-bottom: 30px;
+}
+
+.explore {
+    background-color: rgb(253, 255, 164);
+}
+
+.sharing {
+    background-color: rgb(255, 204, 157);
+}
+
+.favorites {
+    background-color: rgb(248, 190, 190);
+
+}
+
+.photos {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+  
+.photos-item {
+    margin: 10px 0px 15px 30px;
+}
+
+.photo {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.date {
+    width: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(100, 98, 98);
+    margin-top: 30px;
+    margin-left: 30px;
+}
