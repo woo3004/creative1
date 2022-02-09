@@ -5,6 +5,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .head {
     width: auto;
     background-color: rgb(194, 230, 240);
@@ -12,7 +13,19 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid slategrey;
+    align-items: center;
 }
+
+a {
+    text-decoration: none;
+}
+
+.head div h1 {
+    color: #01326b;
+
+}
+
+
 
 .menu {
     display: flex;
@@ -99,3 +112,133 @@
     margin-top: 30px;
     margin-left: 30px;
 }
+
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(179, 177, 177);
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cougar {
+    color: #01326b;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+.sign {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.login_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.id_box,
+.password_box {
+    text-align: left;
+    text-indent: 5px;
+    padding: 15px;
+    border: 2px solid rgb(179, 177, 177);
+    width: 60%;
+    border-radius: 10px;
+    color: gray;
+}
+
+.id_box {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.login_button {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #1a73e9;
+    background-color: #1a73e9;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-right: 20%;
+}
+
+
+
+
+.prefer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(179, 177, 177);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 160px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.preferences {
+    color: #01326b;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+.interest {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+
+.interest_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.checkboxes {
+    font-size: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkboxes div {
+    width: 20%;
+    margin: 10px;
+}
+
+.submit_button {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #1a73e9;
+    background-color: #1a73e9;
+    border-radius: 10px;
+}
+
